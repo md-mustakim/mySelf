@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Eurostile";
+  src: url("font/EurostileBold.ttf") format("truetype");
+}
+
+* {
+  font-family: Eurostile, Helvetica, sans-serif;
+  font-size: 2.5vh;
+  color: black;
+}
+
+.say-hello {
+  background: linear-gradient(to top, #04aa6dd3, #04aa6d);
+  border: 1px solid rgb(255, 248, 220);
+  border-radius: 30px;
+  padding: 13px 30px;
+  text-decoration: none;
+}
+
+.say-hello:hover {
+  background: linear-gradient(to bottom, #04aa6dd3, #04aa6d);
+  cursor: pointer;
+}
